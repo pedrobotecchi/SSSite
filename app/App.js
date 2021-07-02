@@ -1,9 +1,10 @@
 import React from 'react'
 import './assets/styles/global.scss';
+import Home from './pages/Home';
 
 function App () {
   return (
-    <div className='just'>Hello world!</div>
+    <Home/>
   )
 }
 
